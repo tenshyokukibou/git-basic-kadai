@@ -1,0 +1,19 @@
+PS C:\Users\81905\OneDrive\デスクトップ\lesson> mkdir git_challenge
+
+PS C:\Users\81905\OneDrive\デスクトップ\lesson\git_challenge> git init
+
+Initialized empty Git repository in C:/Users/81905/OneDrive/デスクトップ/lesson/git_challenge/.git/
+PS C:\Users\81905\OneDrive\デスクトップ\lesson\git_challenge> git commit -m hello
+On branch main
+
+Initial commit
+
+son\git_challenge> git add hello_world.txt 
+
+PS C:\Users\81905\OneDrive\デスクトップ\lesson\git_challenge> git commit -m "おはよう 　世界"
+[main 05fe057] おはよう　世界
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+PS C:\Users\81905\OneDrive\デスクトップ\lesson\git_challenge> git log --oneline
+05fe057 (HEAD -> main) おはよう　世界
+91ee95a hello
